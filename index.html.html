@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SIMBAA VET CLINIC</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">SIMBAA VET CLINIC</h1>
+    <P id="description">We appreciate you for taking you time to fill out this survey. Thank you!</P>
+    <form id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label">Name of the owner:<input type="text" required id="name" placeholder="Name of owner"></label>
+      <label for="name-of-pet">Name of the pet:<input type="text" required id="name-of-pet" placeholder="Name of pet"></label>
+      <label for="number" id="number-label">Phone number: <input type="number" required id="number" min="10" max="14" placeholder="Phone number"></label>
+      <label for="email" id="email-label">Email: <input type="email" placeholder="Email" id="email" required></label>
+    </fieldset>
+    <fieldset><legend>Which branch did you visit?</legend><label><input type="checkbox" value="Nairobi">Nairobi</label>
+    <label><input type="checkbox" value="Nakuru">Nakuru</label></fieldset>
+   <fieldset>
+<label>
+<legend>How did you like our services?</legend>
+  <select id="dropdown">
+    <option>Very Good</option>
+    <option>Good</option>
+    <option>Bad</option>
+    <option>Very Bad</option>
+    <option>Prefer Not to Say</option>
+  </select>
+  </label>
+  </fieldset>
+  <fieldset>
+  <legend>Would you recomend our services to others?</legend>
+  <label for="yes"><input type="radio" name="choose" checked id="yes" value="no">Yes</label>
+  <label for="no"><input type="radio" name="choose" id="no" value="no">No</label>
+  <label for="not-sure"><input type="radio" name="choose" id="not-sure" value="not-sure">Not sure</label>
+  <label for="review">What are some of the services would you like to see in our clinic?<textarea id="review" name="review" cols="40" rows="4"></textarea></label>
+  </fieldset>
+  <button id="submit">Submit</button> 
+    </form>
+    <footer>copyright all rights reserved simbaa vet clinic 2025</footer>
+  </body>
+</html>
